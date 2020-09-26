@@ -15,7 +15,7 @@ function Manysimple() {
     <div className="Manysimple">
         <ul>{final}</ul>    
         <div>
-        <img src={carbon} className="Carbon-Simplecomp" width="500px" height="500px" alt="simplecomp" />
+        <img src={carbon} className="Carbon-Simplecomp" width="100%" alt="simplecomp" />
         </div>
     </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Frameworks from './Frameworks';
-import Reactsite from "./reactsite"
+
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
       </header>
       <main>
         <Frameworks></Frameworks>
-        <Reactsite></Reactsite>
 
       </main>
     </div>

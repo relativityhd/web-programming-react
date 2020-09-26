@@ -6,6 +6,8 @@ import Reactsite from "./reactsite"
 import Components from "./components"
 import statelc from "./statelc"
 import Timer from './Timer';
+import Simplecompsite from "./Simplecompsite"
+import Manysimple from "./Manysimple"
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <main className="App-body">
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
+        <Simplecompsite></Simplecompsite>
+        <Manysimple></Manysimple>
         <Timer></Timer>
       </main>
     </div>

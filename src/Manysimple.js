@@ -16,7 +16,7 @@ function Manysimple() {
               <div className="simpleComps">{simplecomps}</div>
             </div>
             <div className="TRight">
-              <img src={carbon} width="100%" className="StateCode" alt="code."/>
+              <img src={carbon} className="StateCode" alt="code."/>
             </div>
           </div>
         </div>

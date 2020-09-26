@@ -8,6 +8,7 @@ import Statelc from "./statelc"
 import Timer from './Timer';
 import Simplecompsite from "./Simplecompsite"
 import Manysimple from "./Manysimple"
+import Demo from "./Demo"
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Manysimple></Manysimple>
         <Statelc></Statelc>
         <Timer></Timer>
+        <Demo></Demo>
       </main>
     </div>
   );

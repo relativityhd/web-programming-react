@@ -6,6 +6,7 @@ div.viereck {
     background: linear-gradient(to right, #0ABFBC, #FC354C);
     transform: skew(2deg, 2deg);
     padding: 2px;
+    margin: 5px;
 }
 div.kreis {
     width: 100%;

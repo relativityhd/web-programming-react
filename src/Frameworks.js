@@ -3,7 +3,7 @@ import './App.css';
 
 function Frameworks() {
   return (
-    <div className="SiteWrapper SiteWrapper-darker">
+    <div className="SiteWrapper">
       <div className="Frameworks">
         <h2>Intro to Frameworks</h2>
       <div className="listWrap">
@@ -12,7 +12,7 @@ function Frameworks() {
               <h2>01</h2>
               <h3>Definition:</h3>
               <p>
-              Ein Framework ist eine semi-vollständige Applikation. Es stellt für Applikationen eine wiederverwendbare,gemeinsame Struktur zur Verfügung.
+              Ein Framework ist eine semi-vollständige Applikation. Es stellt für Applikationen eine wiederverwendbare, gemeinsame Struktur zur Verfügung.
               </p>
             </li>
             <li>
@@ -26,7 +26,10 @@ function Frameworks() {
               <h2>03</h2>
               <h3>Arten</h3>
               <p>
-              Es  gibt viele verschiedene Arten von Frameworks, darunter Application Frameworks, Class Frameworks und Web Frameworks. React ist ein Web Framework
+              Es  gibt viele verschiedene Arten von Frameworks, darunter:<br></br>
+              -Application Frameworks<br></br>
+              -Class Frameworks<br></br>
+              -Web Frameworks
               </p>
             </li>
             </ul>

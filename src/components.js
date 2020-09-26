@@ -3,7 +3,7 @@ import './App.css';
 
 function Components() {
   return (
-    <div className="SiteWrapper SiteWrapper-darker">
+    <div className="SiteWrapper">
       <div className="reactsite">
         <h2>Components</h2>
         <div className="listWrap">

@@ -31,7 +31,7 @@ class Timer extends React.Component {
               <p className="StateSeconds">Seconds: {this.state.seconds}</p>
             </div>
             <div className="TRight">
-              <img src={state} width="100%" className="StateCode" alt="code."/>
+              <img src={state} className="StateCode" alt="code."/>
             </div>
           </div>
         </div>

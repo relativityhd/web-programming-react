@@ -30,9 +30,9 @@ function App() {
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
         <Components></Components>
-        <Statelc></Statelc>
         <Simplecompsite></Simplecompsite>
         <Manysimple></Manysimple>
+        <Statelc></Statelc>
         <Timer></Timer>
       </main>
     </div>

@@ -5,7 +5,7 @@ function Statelc() {
   return (
     <div className="SiteWrapper SiteWrapper-darker">
       <div className="reactsite">
-        <h2>States</h2>
+        <h2>Lifecycles</h2>
         <div className="listWrap">
           <ul className="tilesWrap">
             <li>
@@ -28,7 +28,7 @@ function Statelc() {
             </li>
             <li>
               <h2>03</h2>
-              <h3>History</h3>
+              <h3>Umsetzung</h3>
               <p>
               Mounting und updating wird beides mit der render () Methode durchgeführt
 

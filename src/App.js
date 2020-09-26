@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import state from './state.png';
 import './App.css';
 import Frameworks from './Frameworks';
 import Reactsite from "./reactsite"
@@ -25,12 +24,10 @@ function App() {
           Learn React
         </a>
       </header>
-      <main>
+      <main className="App-body">
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
-        <img src={state} className="StateCode" width="500" height="600"/>
         <Timer></Timer>
-
       </main>
     </div>
   );

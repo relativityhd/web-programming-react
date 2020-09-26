@@ -5,7 +5,7 @@ function Components() {
   return (
     <div className="SiteWrapper SiteWrapper-darker">
       <div className="reactsite">
-        <h2>Intro to React</h2>
+        <h2>Components</h2>
         <div className="listWrap">
           <ul className="tilesWrap">
             <li>

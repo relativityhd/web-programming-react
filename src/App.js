@@ -4,7 +4,7 @@ import './App.css';
 import Frameworks from './Frameworks';
 import Reactsite from "./reactsite"
 import Components from "./components"
-import statelc from "./statelc"
+import Statelc from "./statelc"
 import Timer from './Timer';
 
 function App() {
@@ -27,6 +27,8 @@ function App() {
       <main className="App-body">
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
+        <Components></Components>
+        <Statelc></Statelc>
         <Timer></Timer>
       </main>
     </div>

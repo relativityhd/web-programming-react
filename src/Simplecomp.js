@@ -5,8 +5,7 @@ function Simplecomp(props) {
     return (
         <div className="viereck">
             <div className="kreis">
-                <br></br>
-                <p>{props.number}</p>
+                {props.number}
             </div>
         </div>
     );

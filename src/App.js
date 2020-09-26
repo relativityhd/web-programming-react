@@ -22,7 +22,6 @@ function App() {
       </header>
       <main>
         <Frameworks></Frameworks>
-
       </main>
     </div>
   );

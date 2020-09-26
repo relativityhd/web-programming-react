@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
+import state from './state.png';
 
 class Timer extends React.Component {
     constructor(props) {
@@ -22,12 +23,20 @@ class Timer extends React.Component {
     }
   
     render() {
-      return React.createElement(
-        'div',
-        null,
-        'Seconds: ',
-        this.state.seconds
-      );
+      return (
+        <div className="SiteWrapper">
+        <h2>Stateful Component</h2>
+          <div className="Timer">
+            <div className="TLeft">
+              <p className="StateSeconds">Seconds: {this.state.seconds}</p>
+            </div>
+            <div className="TRight">
+              <img src={state} width="100%" className="StateCode" alt="code."/>
+            </div>
+          </div>
+        </div>
+      
+      )
     }
   }
 export default Timer;

@@ -5,7 +5,7 @@ function Statelc() {
   return (
     <div className="SiteWrapper SiteWrapper-darker">
       <div className="reactsite">
-        <h2>States</h2>
+        <h2>Lifecycles</h2>
         <div className="listWrap">
           <ul className="tilesWrap">
             <li>

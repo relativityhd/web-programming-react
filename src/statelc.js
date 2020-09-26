@@ -28,7 +28,7 @@ function Statelc() {
             </li>
             <li>
               <h2>03</h2>
-              <h3>History</h3>
+              <h3>Umsetzung</h3>
               <p>
               Mounting und updating wird beides mit der render () Methode durchgeführt
 

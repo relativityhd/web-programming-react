@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Frameowrks from './Frameworks';
+import Frameworks from './Frameworks';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </a>
       </header>
       <main>
-        <Frameowrks></Frameowrks>
+        <Frameworks></Frameworks>
       </main>
     </div>
   );

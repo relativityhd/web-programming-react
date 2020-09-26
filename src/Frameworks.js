@@ -3,8 +3,10 @@ import './App.css';
 
 function Frameworks() {
   return (
-    <div className="Frameworks">
-      Hello
+    <div className="SiteWrapper">
+      <div className="Frameworks">
+        Hello
+      </div>
     </div>
   );
 }

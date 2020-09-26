@@ -12,13 +12,19 @@ function Manysimple() {
     for (let  Simplecomp of simplecomps) {
       final.push(<li key={Simplecomp}>{Simplecomp}</li>);  }
     return (
-    <div className="Manysimple">
-        <ul>{final}</ul>    
-        <div>
-        <img src={carbon} className="Carbon-Simplecomp" width="100%" alt="simplecomp" />
+        <div className="SiteWrapper">
+        <h2>Many Simple Components</h2>
+          <div className="Timer">
+            <div className="TLeft">
+              <p className="StateSeconds"><ul>{final}</ul></p>
+            </div>
+            <div className="TRight">
+              <img src={carbon} width="100%" className="StateCode" alt="code."/>
+            </div>
+          </div>
         </div>
-    </div>
-    );
+      
+      )
   }
 
 export default Manysimple;

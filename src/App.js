@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
+import state from './state.png';
 import './App.css';
 import Frameworks from './Frameworks';
 import Reactsite from "./reactsite"
+import Timer from './Timer';
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -23,6 +26,8 @@ function App() {
       <main>
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
+        <img src={state} className="StateCode" width="500" height="600"/>
+        <Timer></Timer>
 
       </main>
     </div>

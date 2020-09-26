@@ -19,21 +19,21 @@ function Reactsite() {
               <h2>02</h2>
               <h3>Komponenten</h3>
               <p>
-                Komponentenbasiert mit einem State und einem Lifecycle
+                React ist Komponentanbasiert und besitzt einen so genannten "State" und einen so genannten "Lifecycle".
               </p>
             </li>
             <li>
               <h2>03</h2>
               <h3>History</h3>
               <p>
-                Entwickelt von Jordan Walke in 2011, Weiterentwickelt von Facebook OpenSource
+                React wurde 2011 von Jordan Walke entwickelt und danach von Facebook OpenSource weiterentwickelt.
               </p>
             </li>
             <li>
               <h2>04</h2>
               <h3>Nutzer</h3>
               <p>
-                Benutzt von Facebook, Instagram, Discord und vielen mehr
+                React wird heutzutage von vielen populären Webdiensten verwendet. Darunter Instagram, Facebook und Discord.
               </p>
             </li>
           </ul>

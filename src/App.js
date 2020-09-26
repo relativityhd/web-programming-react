@@ -4,6 +4,8 @@ import state from './state.png';
 import './App.css';
 import Frameworks from './Frameworks';
 import Reactsite from "./reactsite"
+import Components from "./components"
+import statelc from "./statelc"
 import Timer from './Timer';
 
 function App() {

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/relativityhd/web-programming-react/static/css/main.a4eb06bb.chunk.css",
-    "main.js": "/relativityhd/web-programming-react/static/js/main.8e2c1496.chunk.js",
-    "main.js.map": "/relativityhd/web-programming-react/static/js/main.8e2c1496.chunk.js.map",
-    "runtime-main.js": "/relativityhd/web-programming-react/static/js/runtime-main.1039d211.js",
-    "runtime-main.js.map": "/relativityhd/web-programming-react/static/js/runtime-main.1039d211.js.map",
-    "static/js/2.a39d4501.chunk.js": "/relativityhd/web-programming-react/static/js/2.a39d4501.chunk.js",
-    "static/js/2.a39d4501.chunk.js.map": "/relativityhd/web-programming-react/static/js/2.a39d4501.chunk.js.map",
-    "index.html": "/relativityhd/web-programming-react/index.html",
-    "precache-manifest.6590f86ae9433d1d7a57336029af6a18.js": "/relativityhd/web-programming-react/precache-manifest.6590f86ae9433d1d7a57336029af6a18.js",
-    "service-worker.js": "/relativityhd/web-programming-react/service-worker.js",
-    "static/css/main.a4eb06bb.chunk.css.map": "/relativityhd/web-programming-react/static/css/main.a4eb06bb.chunk.css.map",
-    "static/js/2.a39d4501.chunk.js.LICENSE.txt": "/relativityhd/web-programming-react/static/js/2.a39d4501.chunk.js.LICENSE.txt",
-    "static/media/carbon.png": "/relativityhd/web-programming-react/static/media/carbon.68d3b902.png",
-    "static/media/logo.svg": "/relativityhd/web-programming-react/static/media/logo.5d5d9eef.svg",
-    "static/media/state.png": "/relativityhd/web-programming-react/static/media/state.95c20f96.png"
+    "main.css": "/web-programming-react/static/css/main.a4eb06bb.chunk.css",
+    "main.js": "/web-programming-react/static/js/main.b81018ba.chunk.js",
+    "main.js.map": "/web-programming-react/static/js/main.b81018ba.chunk.js.map",
+    "runtime-main.js": "/web-programming-react/static/js/runtime-main.00289510.js",
+    "runtime-main.js.map": "/web-programming-react/static/js/runtime-main.00289510.js.map",
+    "static/js/2.a39d4501.chunk.js": "/web-programming-react/static/js/2.a39d4501.chunk.js",
+    "static/js/2.a39d4501.chunk.js.map": "/web-programming-react/static/js/2.a39d4501.chunk.js.map",
+    "index.html": "/web-programming-react/index.html",
+    "precache-manifest.622b6f481920af174e730ec930546943.js": "/web-programming-react/precache-manifest.622b6f481920af174e730ec930546943.js",
+    "service-worker.js": "/web-programming-react/service-worker.js",
+    "static/css/main.a4eb06bb.chunk.css.map": "/web-programming-react/static/css/main.a4eb06bb.chunk.css.map",
+    "static/js/2.a39d4501.chunk.js.LICENSE.txt": "/web-programming-react/static/js/2.a39d4501.chunk.js.LICENSE.txt",
+    "static/media/carbon.png": "/web-programming-react/static/media/carbon.68d3b902.png",
+    "static/media/logo.svg": "/web-programming-react/static/media/logo.5d5d9eef.svg",
+    "static/media/state.png": "/web-programming-react/static/media/state.95c20f96.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1039d211.js",
+    "static/js/runtime-main.00289510.js",
     "static/js/2.a39d4501.chunk.js",
     "static/css/main.a4eb06bb.chunk.css",
-    "static/js/main.8e2c1496.chunk.js"
+    "static/js/main.b81018ba.chunk.js"
   ]
 }

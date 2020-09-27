@@ -25,14 +25,14 @@ class Timer extends React.Component {
   
     render() {
       return (
-        <div className="SiteWrapper" id="pageSeven">
+        <div className="SiteWrapper" id={`page-${this.props.pnum}`}>
         <h2>Stateful Component</h2>
           <div className="Timer">
             <div className="TLeft">
               <p className="StateSeconds">Seconds: {this.state.seconds}</p>
             </div>
             <div className="TRight">
-              <img src={state} width="85%" className="StateCode" alt="code."/>
+              <img src={state} className="StateCode" alt="code."/>
             </div>
           </div>
         </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function Reactsite() {
+function Reactsite(props) {
   return (
-    <div className="SiteWrapper SiteWrapper-darker" id="pageTwo">
+    <div className="SiteWrapper SiteWrapper-darker"  id={`page-${props.pnum}`}>
       <div className="reactsite">
         <h2>Intro to React</h2>
         <div className="listWrap">

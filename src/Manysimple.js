@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import carbon from "./carbon.png"
+import carbon from "./manycomps.png"
 import Simplecomp from "./Simplecomp.js"
 
-function Manysimple() {
+function Manysimple(props) {
     const simplecomps = [];
     for (let i = 1; i < 11; i++) {
-        simplecomps.push(<Simplecomp number={i}></Simplecomp>)
+        simplecomps.push(<Simplecomp number={i} key={i}></Simplecomp>)
     }
     return (
-        <div className="SiteWrapper" id="pageSix">
+        <div className="SiteWrapper"  id={`page-${props.pnum}`}>
         <h2>Many Simple Components</h2>
           <div className="Timer">
             <div className="TLeft">

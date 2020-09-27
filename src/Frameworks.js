@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 
-function Frameworks() {
+function Frameworks(props) {
   return (
-    <div className="SiteWrapper"  id="pageOne">
+    <div className="SiteWrapper" id={`page-${props.pnum}`}>
       <div className="Frameworks">
         <h2>Intro to Frameworks</h2>
       <div className="listWrap">
           <ul className="tilesWrap">
             <li>
               <h2>01</h2>
-              <h3>Definition:</h3>
+              <h3>Definition</h3>
               <p>
               Ein Framework ist eine semi-vollständige Applikation. Es stellt für Applikationen eine wiederverwendbare, gemeinsame Struktur zur Verfügung.
               </p>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function Demo() {
+function Demo(props) {
   return (
-    <div className="SiteWrapper SiteWrapper-darker">
+    <div className="SiteWrapper SiteWrapper-darker" id={`page-${props.pnum}`}>
       <div className="Demo">
         <a className="DemoLink" href="linktodemo">Demo</a>
       </div>

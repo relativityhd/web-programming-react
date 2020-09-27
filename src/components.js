@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function Components() {
+function Components(props) {
   return (
-    <div className="SiteWrapper" id="pageThree">
+    <div className="SiteWrapper" id={`page-${props.pnum}`}>
       <div className="reactsite">
         <h2>Components</h2>
         <div className="listWrap">

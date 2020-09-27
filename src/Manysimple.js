@@ -9,7 +9,7 @@ function Manysimple() {
         simplecomps.push(<Simplecomp number={i}></Simplecomp>)
     }
     return (
-        <div className="SiteWrapper">
+        <div className="SiteWrapper" id="pageSix">
         <h2>Many Simple Components</h2>
           <div className="Timer">
             <div className="TLeft">

@@ -3,7 +3,7 @@ import './App.css';
 
 function Reactsite() {
   return (
-    <div className="SiteWrapper SiteWrapper-darker">
+    <div className="SiteWrapper SiteWrapper-darker" id="pageTwo">
       <div className="reactsite">
         <h2>Intro to React</h2>
         <div className="listWrap">

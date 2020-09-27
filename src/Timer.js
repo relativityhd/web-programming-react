@@ -16,6 +16,7 @@ class Timer extends React.Component {
   
     componentDidMount() {
       this.interval = setInterval(() => this.tick(), 1000);
+      
     }
   
     componentWillUnmount() {
@@ -24,14 +25,14 @@ class Timer extends React.Component {
   
     render() {
       return (
-        <div className="SiteWrapper">
+        <div className="SiteWrapper" id="pageSeven">
         <h2>Stateful Component</h2>
           <div className="Timer">
             <div className="TLeft">
               <p className="StateSeconds">Seconds: {this.state.seconds}</p>
             </div>
             <div className="TRight">
-              <img src={state} className="StateCode" alt="code."/>
+              <img src={state} width="85%" className="StateCode" alt="code."/>
             </div>
           </div>
         </div>

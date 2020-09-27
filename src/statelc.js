@@ -3,7 +3,7 @@ import './App.css';
 
 function Statelc() {
   return (
-    <div className="SiteWrapper SiteWrapper-darker">
+    <div className="SiteWrapper SiteWrapper-darker" id="pageFour">
       <div className="reactsite">
         <h2>Lifecycles</h2>
         <div className="listWrap">

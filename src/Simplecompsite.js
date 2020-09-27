@@ -5,7 +5,7 @@ import Simplecomp from "./Simplecomp.js"
 
 function Simplecompsite() {
   return (
-  <div className="SiteWrapper SiteWrapper-darker">
+  <div className="SiteWrapper SiteWrapper-darker" id="pageFive">
   <h2>Simple Component</h2>
     <div className="Timer">
       <div className="TLeft">

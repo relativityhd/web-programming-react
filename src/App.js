@@ -8,21 +8,31 @@ import Statelc from "./statelc"
 import Timer from './Timer';
 import Simplecompsite from "./Simplecompsite"
 import Manysimple from "./Manysimple"
-import Demo from "./Demo"
+var counter = 0;
 
-function App() {
-  return (
-    
-    <div className="App">
+class App extends React.Component {
+  onKeyPressed(e) {
+    var pages = ["pageTwo", "pageThree", "pageFour", "pageFive", "pageSix", "pageSeven"];
+    if (counter < 5) {
+    var element = document.getElementById(pages[counter]);
+    element.scrollIntoView();
+    counter++;
+    }
+    else{
+      element = document.getElementById(pages[counter]);
+      element.scrollIntoView();
+    }
+  }
+  render() {
+    return (
+    <div className="App" onKeyDown={(e) => this.onKeyPressed(e)}  tabIndex={0}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>React</h1>
         <p>A JavaScript library for building user interfaces</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#pageOne"
         >
           Learn React
         </a>
@@ -31,14 +41,13 @@ function App() {
         <Frameworks></Frameworks>
         <Reactsite></Reactsite>
         <Components></Components>
+        <Statelc></Statelc>
         <Simplecompsite></Simplecompsite>
         <Manysimple></Manysimple>
-        <Statelc></Statelc>
         <Timer></Timer>
-        <Demo></Demo>
       </main>
     </div>
   );
+    }
 }
-
 export default App;
